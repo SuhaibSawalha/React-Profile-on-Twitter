@@ -21,7 +21,7 @@ function Navbar({ children }) {
           text="Post"
           color="white"
           backgroundColor="#1D9BF0"
-          width="calc(100% - 40px)"
+          width="100%"
           height="50px"
           fontSize="1.2rem"
         />

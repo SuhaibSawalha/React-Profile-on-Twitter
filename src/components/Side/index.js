@@ -1,4 +1,10 @@
+import SearchTab from "./../SearchTab/index";
+
 function Side() {
-  return <aside></aside>;
+  return (
+    <aside>
+      <SearchTab />
+    </aside>
+  );
 }
 export default Side;
