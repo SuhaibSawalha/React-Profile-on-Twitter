@@ -1,4 +1,4 @@
-@import "./../../App.css";
+@import "./../../assets/styles/main.css";
 
 nav {
   padding: 20px 0;
@@ -15,18 +15,26 @@ nav > div:last-child {
 }
 
 .icon {
-  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.nav-item-container {
+  height: min(50px, calc((100% - 120px) / 10));
 }
 .nav-item {
-  display: flex;
+  display: inline-flex;
   justify-content: start;
   align-items: center;
-  width: 100%;
-  height: min(50px, calc((100% - 120px) / 10));
+  padding: 10px 15px;
   text-decoration: none;
   color: var(--primary-text-color);
   border-radius: 50px;
+  transition: background-color 0.3s ease;
 }
+.nav-item:hover {
+  background-color: var(--primary-background-color);
+}
+
 .nav-item > span {
   display: block;
   width: 30px;
