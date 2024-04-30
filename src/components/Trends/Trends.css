@@ -1,0 +1,23 @@
+@import "./../../assets/styles/main.css";
+
+.trends {
+  border: 3px solid var(--primary-background-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.trends h3 {
+  margin-bottom: 10px;
+}
+
+.category {
+  font-size: 0.8rem;
+  color: var(--secondary-text-color);
+}
+.title {
+  color: var(--primary-text-color);
+}
+.tweets-count {
+  font-size: 0.8rem;
+  color: var(--secondary-text-color);
+}
