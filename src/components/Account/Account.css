@@ -1,45 +1,46 @@
 @import "./../../assets/styles/main.css";
 
-.profile {
+.account {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   height: 50px;
 }
 
-.profile > div {
+.account > div {
   display: flex;
 }
 
-img {
+.account img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.name {
+.account .name {
   color: var(--primary-text-color);
   font-weight: bold;
 }
-.id {
+.account .id {
   color: var(--secondary-text-color);
 }
 
-.three-dots {
+.account .three-dots {
   height: 60px;
 }
-.three-dots:after {
+.account .three-dots:after {
   font-size: 2rem;
   color: var(--primary-text-color);
   content: "...";
 }
 
-.action {
+.account .action {
   display: flex;
   align-items: center;
 }
 
-.verified {
+.account .verified {
   width: 20px;
   height: 20px;
   margin-left: 5px;

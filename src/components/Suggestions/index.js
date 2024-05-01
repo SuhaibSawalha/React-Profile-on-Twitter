@@ -1,25 +1,25 @@
 import "./Suggestions.css";
-import Profile from "./../Profile/index";
+import Account from "./../Account/index";
 
 function Suggestions() {
   return (
     <div className="suggestions">
       <h3>You might like</h3>
       <div className="suggested-pages">
-        <Profile
+        <Account
           name="Tailwind CSS"
           id="tailwindcss"
           extention="png"
           loggedUser={false}
           verified={true}
         />
-        <Profile
+        <Account
           name="TypeScript"
           id="typescript"
           extention="png"
           loggedUser={false}
         />{" "}
-        <Profile
+        <Account
           name="freeCodeCamp.org"
           id="freeCodeCamp"
           extention="jpg"

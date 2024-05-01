@@ -1,7 +1,7 @@
 import SearchTab from "./../SearchTab/index";
 import Suggestions from "./../Suggestions/index";
 import Trends from "./../Trends/index";
-import VerticalDivider from "./../vertical-divider/index";
+import VerticalDivider from "../VerticalDivider/index";
 
 function Side() {
   return (
