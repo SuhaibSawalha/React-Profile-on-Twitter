@@ -1,0 +1,262 @@
+@import "./../../assets/styles/main.css";
+
+main {
+  padding: 0 20px;
+}
+.main-component {
+  border: 2px solid var(--border-color);
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+header button {
+  background: none;
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: none;
+  margin-right: 30px;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  border-radius: 50px;
+}
+header button:hover {
+  cursor: pointer;
+  background-color: var(--primary-background-color);
+}
+header h2,
+.info h2 {
+  color: var(--primary-text-color);
+}
+header p {
+  font-size: 0.85rem;
+  color: var(--secondary-text-color);
+}
+header .verified,
+.info .verified,
+.post .verified {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.profile .cover-picture {
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+.profile .account-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.profile .profile-picture-container {
+  position: relative;
+}
+.profile .profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid var(--primary-color);
+  position: absolute;
+  top: -100px;
+}
+
+.profile .three-dots-button {
+  background: none;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+.profile .three-dots-button p {
+  text-align: center;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.info {
+  padding: 20px 20px 0 20px;
+}
+
+.info .id {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+}
+
+.info .descreption {
+  margin-top: 10px;
+  color: var(--primary-text-color);
+}
+
+.info .web-date {
+  margin-top: 10px;
+}
+.info .web-date,
+.info .web-date > * {
+  display: flex;
+  align-items: center;
+}
+.info .date {
+  margin-left: 10px;
+}
+.info .web-date span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.info .web-date svg {
+  width: 100%;
+  height: 100%;
+}
+.info .web a {
+  margin-left: 5px;
+  color: var(--link-color);
+  text-decoration: none;
+}
+.info .web a:hover {
+  text-decoration: underline;
+}
+.info .date p {
+  margin-left: 5px;
+  color: var(--secondary-text-color);
+}
+
+.info .followers-following {
+  margin-top: 15px;
+  display: flex;
+  color: var(--secondary-text-color);
+  font-size: 0.9rem;
+}
+.info .followers-following strong {
+  color: var(--primary-text-color);
+}
+.info .followers {
+  margin-left: 10px;
+}
+
+.post-container {
+  margin-top: 20px;
+}
+.post-container .line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color);
+}
+.post {
+  padding: 10px 20px;
+}
+
+.post .pinned {
+  margin-left: 50px;
+}
+.post .pinned strong {
+  color: var(--secondary-text-color);
+  display: flex;
+}
+.post .pinned span {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.post .pinned svg {
+  width: 100%;
+  height: 100%;
+}
+.post .pinned p {
+  font-size: 0.8rem;
+}
+
+.post .body {
+  margin-top: 5px;
+  color: var(--primary-text-color);
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.post .img {
+  width: 50px;
+  height: 50px;
+}
+.post img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.post .post-info {
+  padding-left: 10px;
+}
+.post .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .header > div:first-child {
+  display: flex;
+  justify-content: center;
+}
+.post .header .secondary-coloring-div {
+  color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.post .three-dots {
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.post .content {
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+.post .content a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.post .content a:hover {
+  text-decoration: underline;
+}
+
+.post .statistics {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.post .statistics span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.post .statistics svg {
+  width: 100%;
+  height: 100%;
+}
+.post .statistics p {
+  color: var(--secondary-text-color);
+  margin-left: 5px;
+}
+.post .statistics > div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.post .statistics > div:last-child > span:first-child {
+  margin-right: 10px;
+}

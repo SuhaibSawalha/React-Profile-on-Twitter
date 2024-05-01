@@ -1,4 +1,13 @@
-function Button({ text, color, backgroundColor, width, height, fontSize }) {
+function Button({
+  text,
+  color,
+  backgroundColor,
+  width,
+  height,
+  fontSize,
+  onClick,
+  borderColor,
+}) {
   return (
     <button
       style={{
@@ -6,12 +15,13 @@ function Button({ text, color, backgroundColor, width, height, fontSize }) {
         backgroundColor: backgroundColor,
         width: width,
         height: height,
-        border: "none",
+        border: `1px solid ${borderColor}`,
         borderRadius: "50px",
         fontSize: fontSize,
         fontWeight: "bold",
         cursor: "pointer",
       }}
+      onClick={onClick}
     >
       {text}
     </button>

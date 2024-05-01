@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import Button from "./../Button/index";
-import Profile from "./../Profile/index";
+import Account from "./../Account/index";
 import icon from "./../../assets/img/X_icon.svg";
 
 function Navbar({ children }) {
@@ -27,7 +27,7 @@ function Navbar({ children }) {
         />
       </div>
       <div>
-        <Profile
+        <Account
           name="Suhaib Sawalha"
           id="SuhaibSawalha"
           extention="jpeg"

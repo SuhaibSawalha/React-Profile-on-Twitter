@@ -1,6 +1,6 @@
 import "./Trends.css";
 import Trend from "./Trend";
-import VerticalDivider from "./../vertical-divider/index";
+import VerticalDivider from "../VerticalDivider/index";
 
 function Trends() {
   return (
